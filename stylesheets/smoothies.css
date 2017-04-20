@@ -1,0 +1,1502 @@
+/* line 2, ../sass/_overrides.scss */
+.page-node #content .section > .torn-pod-content .contentbox #block-views-generic-page-items-block-2, .page-node #content .section > .torn-pod-content .contentbox .block-views, .node-type-page #content .section > .torn-pod-content .contentbox #block-views-generic-page-items-block-2, .node-type-page #content .section > .torn-pod-content .contentbox .block-views {
+  padding: 0;
+}
+
+@media screen and (max-width: 648px) {
+  /* line 6, ../sass/_overrides.scss */
+  .view-id-generic_page_items img {
+    max-width: 100% !important;
+  }
+
+  /* line 9, ../sass/_overrides.scss */
+  #page > * {
+    padding: 0 !important;
+  }
+}
+/* line 14, ../sass/_overrides.scss */
+.undernav-active .torn-pod-content h2, .undernav-active #views_infinite_scroll-ajax-loader h2 {
+  line-height: 1.2em;
+}
+
+/* line 18, ../sass/_overrides.scss */
+body, body.PersonaHeader_Info {
+  margin: 0 auto;
+  background: #fff;
+}
+@media only screen and (max-width: 728px) {
+  /* line 18, ../sass/_overrides.scss */
+  body, body.PersonaHeader_Info {
+    background: #fff;
+  }
+  /* line 23, ../sass/_overrides.scss */
+  body .view-generic-page-items.view-display-id-block_1 .view-content, body .view-generic-page-items.view-display-id-block_2 .view-content, body.PersonaHeader_Info .view-generic-page-items.view-display-id-block_1 .view-content, body.PersonaHeader_Info .view-generic-page-items.view-display-id-block_2 .view-content {
+    margin-top: 1px;
+  }
+  /* line 26, ../sass/_overrides.scss */
+  body #page #section-content, body.PersonaHeader_Info #page #section-content {
+    padding-top: 1px;
+  }
+}
+/* line 30, ../sass/_overrides.scss */
+body .views-field-field-body-mobile, body.PersonaHeader_Info .views-field-field-body-mobile {
+  background: #fff;
+}
+/* line 33, ../sass/_overrides.scss */
+body .region-marquee, body.PersonaHeader_Info .region-marquee {
+  background: none;
+}
+/* line 36, ../sass/_overrides.scss */
+body #block-views-marquee-page-block, body.PersonaHeader_Info #block-views-marquee-page-block {
+  border-bottom: none;
+  background: #fff bottom repeat-x !important;
+  padding-bottom: 62px !important;
+}
+/* line 41, ../sass/_overrides.scss */
+body .marquee-left, body .marquee-right, body.PersonaHeader_Info .marquee-left, body.PersonaHeader_Info .marquee-right {
+  padding-left: 0px;
+  padding-right: 0px;
+  background: none !important;
+  border: none !important;
+}
+/* line 47, ../sass/_overrides.scss */
+body #block-views-marquee-page-block .content, body.PersonaHeader_Info #block-views-marquee-page-block .content {
+  width: 100%;
+  margin: auto;
+  background: none !important;
+}
+@media only screen and (min-width: 700px) and (max-width: 999px) {
+  /* line 52, ../sass/_overrides.scss */
+  body .push, body.PersonaHeader_Info .push {
+    height: 0px !important;
+  }
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  /* line 52, ../sass/_overrides.scss */
+  body .push, body.PersonaHeader_Info .push {
+    height: 20px !important;
+  }
+}
+/* line 63, ../sass/_overrides.scss */
+body .clearboth, body.PersonaHeader_Info .clearboth {
+  clear: both;
+  height: 0px;
+}
+/* line 64, ../sass/_overrides.scss */
+body #footer, body.PersonaHeader_Info #footer {
+  background: none;
+  height: 970px !important;
+}
+/* line 68, ../sass/_overrides.scss */
+body #footer .section, body.PersonaHeader_Info #footer .section {
+  width: 960px;
+  height: 970px;
+  padding: 0 40px;
+  box-sizing: border-box;
+}
+/* line 75, ../sass/_overrides.scss */
+body div.footer-new-container div.footer-column, body.PersonaHeader_Info div.footer-new-container div.footer-column {
+  width: 230px !important;
+}
+/* line 78, ../sass/_overrides.scss */
+body div.footer-new-container div#footer-right, body.PersonaHeader_Info div.footer-new-container div#footer-right {
+  width: 355px !important;
+}
+
+/* line 85, ../sass/_overrides.scss */
+body.logged-in {
+  padding-top: 150px !important;
+}
+/* line 87, ../sass/_overrides.scss */
+body.logged-in .tabs {
+  margin: 10px auto 0;
+  display: block;
+  width: 960px;
+  position: relative;
+  z-index: 10;
+}
+/* line 94, ../sass/_overrides.scss */
+body.logged-in #container.holiday-top-nav {
+  margin-top: 10px;
+}
+@media only screen and (max-width: 1400px) and (min-width: 1220px) {
+  /* line 99, ../sass/_overrides.scss */
+  body #main {
+    margin-left: 0px !important;
+  }
+}
+/* line 103, ../sass/_overrides.scss */
+body #main {
+  width: 100% !important;
+}
+/* line 106, ../sass/_overrides.scss */
+body #main-wrapper {
+  z-index: 0 !important;
+}
+@media only screen and (min-width: 1592px) {
+  /* line 106, ../sass/_overrides.scss */
+  body #main-wrapper {
+    margin-top: -492px !important;
+  }
+}
+/* line 112, ../sass/_overrides.scss */
+body #page {
+  margin: 0 !important;
+}
+/* line 116, ../sass/_overrides.scss */
+body #content-bottom #container {
+  max-width: 100%;
+}
+/* line 119, ../sass/_overrides.scss */
+body #content-bottom .wrapper.article {
+  max-width: 960px;
+}
+/* line 122, ../sass/_overrides.scss */
+body #content-bottom #newsletter-block {
+  max-width: 960px;
+  margin: auto;
+}
+
+/* line 133, ../sass/_overrides.scss */
+.wholefoods-mobile-theme body #page-wrapper {
+  margin: 0 auto !important;
+}
+
+/* line 140, ../sass/_overrides.scss */
+#page #section-content {
+  padding: 0;
+}
+
+/* Breadcrumb Styling */
+/* line 145, ../sass/_overrides.scss */
+.page-node #content .section > .torn-pod-content div#breadcrumb.shown {
+  width: 960px;
+  max-width: 100%;
+  margin: auto !important;
+}
+@media screen and (min-width: 1220px) and (max-width: 1480px) {
+  /* line 145, ../sass/_overrides.scss */
+  .page-node #content .section > .torn-pod-content div#breadcrumb.shown {
+    width: 800px;
+  }
+}
+/* line 152, ../sass/_overrides.scss */
+.page-node #content .section > .torn-pod-content div#breadcrumb.shown .breadcrumb {
+  display: block;
+  position: absolute;
+  z-index: 100;
+  width: 960px;
+  max-width: 100%;
+  color: #fff;
+  padding-top: 60px;
+}
+/* line 161, ../sass/_overrides.scss */
+.page-node #content .section > .torn-pod-content div#breadcrumb.shown .breadcrumb a:link, .page-node #content .section > .torn-pod-content div#breadcrumb.shown .breadcrumb a:hover, .page-node #content .section > .torn-pod-content div#breadcrumb.shown .breadcrumb a:visited, .page-node #content .section > .torn-pod-content div#breadcrumb.shown .breadcrumb a:active {
+  color: #fff;
+}
+@media screen and (max-width: 767px) {
+  /* line 152, ../sass/_overrides.scss */
+  .page-node #content .section > .torn-pod-content div#breadcrumb.shown .breadcrumb {
+    width: 100%;
+  }
+}
+
+/* line 11, ../sass/smoothies.scss */
+#ingredientOptions::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 10px;
+}
+
+/* line 16, ../sass/smoothies.scss */
+::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background-color: rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0 0 1px rgba(255, 255, 255, 0.5);
+}
+
+/* line 22, ../sass/smoothies.scss */
+#copy {
+  box-sizing: border-box;
+  padding: 0 1em;
+}
+
+/* line 28, ../sass/smoothies.scss */
+h2, .view-generic-page-items.view-display-id-block_1 h2:first-of-type {
+  text-transform: uppercase;
+  font-family: "LeagueGothic", "Lucida Sans", "Lucida Grande", sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  font-weight: normal;
+}
+
+/* line 36, ../sass/smoothies.scss */
+body.noscroll {
+  overflow: hidden;
+  position: fixed;
+}
+
+/* line 41, ../sass/smoothies.scss */
+.contentwidth {
+  width: 960px;
+  max-width: 100%;
+  box-sizing: border-box;
+  margin: 1em auto;
+  display: block;
+}
+/* line 48, ../sass/smoothies.scss */
+.contentwidth h2 {
+  line-height: 64px;
+}
+@media screen and (min-width: 1220px) and (max-width: 1480px) {
+  /* line 41, ../sass/smoothies.scss */
+  .contentwidth {
+    width: 800px;
+  }
+}
+@media screen and (max-width: 767px) {
+  /* line 41, ../sass/smoothies.scss */
+  .contentwidth {
+    width: 100%;
+  }
+}
+
+/* line 58, ../sass/smoothies.scss */
+.screenreader, .screen-reader-text {
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+}
+
+/* line 61, ../sass/smoothies.scss */
+.centered {
+  text-align: center;
+}
+
+/* line 66, ../sass/smoothies.scss */
+.socialLinks p {
+  font-size: 30px !important;
+  text-align: center;
+}
+/* line 70, ../sass/smoothies.scss */
+.socialLinks a:link, .socialLinks a:active, .socialLinks a:visited {
+  color: #fff;
+  margin: 0 20px;
+}
+/* line 74, ../sass/smoothies.scss */
+.socialLinks a:hover {
+  color: #ea906e;
+}
+
+/* line 79, ../sass/smoothies.scss */
+#smoothieToolContainer {
+  background: #9DBF90;
+  background: url(http://assets.wholefoodsmarket.com.s3.amazonaws.com/www/recipes/smoothies/img/smoothiebg.jpg) no-repeat center;
+  background-size: cover;
+  display: block;
+  padding: 100px 0px 100px;
+  min-height: 400px;
+  margin-bottom: 2em;
+  color: #fff;
+  position: relative;
+}
+@media screen and (max-width: 767px) {
+  /* line 79, ../sass/smoothies.scss */
+  #smoothieToolContainer {
+    background: url(http://assets.wholefoodsmarket.com.s3.amazonaws.com/www/recipes/smoothies/img/smoothiebgmobile.jpg) no-repeat bottom left;
+    overflow: hidden;
+  }
+  /* line 90, ../sass/smoothies.scss */
+  #smoothieToolContainer.complete {
+    overflow-x: hidden;
+    overflow-y: visible;
+  }
+}
+/* line 159, ../sass/_mixins.scss */
+#smoothieToolContainer else {
+  -webkit-transition: min-height 500ms ease-in-out;
+  -moz-transition: min-height 500ms ease-in-out;
+  -o-transition: min-height 500ms ease-in-out;
+  -ms-transform: min-height 500ms ease-in-out;
+  transition: min-height 500ms ease-in-out;
+}
+@media screen and (max-width: 767px) {
+  /* line 79, ../sass/smoothies.scss */
+  #smoothieToolContainer {
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+    min-height: 1000px;
+    overflow-x: hidden;
+  }
+}
+/* line 113, ../sass/smoothies.scss */
+#smoothieToolContainer #introScreen p {
+  font-size: 16px;
+  text-align: center;
+  width: 80%;
+  margin: 0 auto 2em;
+}
+@media screen and (max-width: 767px) {
+  /* line 113, ../sass/smoothies.scss */
+  #smoothieToolContainer #introScreen p {
+    font-size: 24px;
+  }
+}
+/* line 122, ../sass/smoothies.scss */
+#smoothieToolContainer #introScreen h1 {
+  color: #fff;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  text-align: center;
+  font-family: "LeagueGothic", "Lucida Sans", "Lucida Grande", sans-serif;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+@media screen and (max-width: 767px) {
+  /* line 122, ../sass/smoothies.scss */
+  #smoothieToolContainer #introScreen h1 {
+    font-size: 50px;
+  }
+}
+/* line 135, ../sass/smoothies.scss */
+#smoothieToolContainer #introScreen #steps {
+  display: block;
+  margin: 1em auto;
+  box-sizing: border-box;
+}
+/* line 140, ../sass/smoothies.scss */
+#smoothieToolContainer #introScreen #steps .arrow {
+  font-size: 40px;
+  vertical-align: top;
+  box-sizing: border-box;
+  padding-top: 5%;
+  display: inline-block;
+  text-align: center;
+  width: 3%;
+}
+@media screen and (max-width: 767px) {
+  /* line 140, ../sass/smoothies.scss */
+  #smoothieToolContainer #introScreen #steps .arrow {
+    width: 2%;
+  }
+}
+/* line 152, ../sass/smoothies.scss */
+#smoothieToolContainer #introScreen #steps .step {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 31%;
+  vertical-align: top;
+  margin-left: -4px;
+  text-align: center;
+}
+@media screen and (max-width: 767px) {
+  /* line 152, ../sass/smoothies.scss */
+  #smoothieToolContainer #introScreen #steps .step {
+    width: 30%;
+  }
+}
+/* line 162, ../sass/smoothies.scss */
+#smoothieToolContainer #introScreen #steps .step p {
+  margin: 0;
+  width: 100%;
+  margin-bottom: 0;
+  vertical-align: top;
+  box-sizing: border-box;
+}
+/* line 170, ../sass/smoothies.scss */
+#smoothieToolContainer #introScreen #steps .step img {
+  height: 100px !important;
+  max-width: 100%;
+  box-sizing: border-box;
+  height: auto;
+  margin-bottom: 0;
+  vertical-align: top;
+}
+/* line 181, ../sass/smoothies.scss */
+#smoothieToolContainer #introScreen #begin {
+  margin-top: 1em;
+}
+/* line 186, ../sass/smoothies.scss */
+#smoothieToolContainer .slide {
+  display: block;
+  box-sizing: border-box;
+  /*width: 100%;
+  margin: 0;*/
+  width: 960px;
+  max-width: 100%;
+  margin: auto;
+  padding: 20px;
+  margin: 20px 0;
+  /*height: 100%;*/
+  position: absolute;
+  top: 100px;
+  /*left: 0;*/
+  max-height: 640px;
+  -webkit-transform: translate(150%, 0);
+  -moz-transform: translate(150%, 0);
+  -o-transform: translate(150%, 0);
+  -ms-transform: translate(150%, 0);
+  transform: translate(150%, 0);
+  -webkit-transition: -webkit- transform 500ms ease-in-out;
+  -moz-transition: -moz- transform 500ms ease-in-out;
+  -o-transition: -o- transform 500ms ease-in-out;
+  -ms-transform: -o- transform 500ms ease-in-out;
+  transition: transform 500ms ease-in-out;
+}
+/* line 159, ../sass/_mixins.scss */
+#smoothieToolContainer .slide else {
+  -webkit-transition: transform 500ms ease-in-out;
+  -moz-transition: transform 500ms ease-in-out;
+  -o-transition: transform 500ms ease-in-out;
+  -ms-transform: transform 500ms ease-in-out;
+  transition: transform 500ms ease-in-out;
+}
+/* line 204, ../sass/smoothies.scss */
+#smoothieToolContainer .slide.focus {
+  visibility: visible;
+  -webkit-transform: translate(0, 0);
+  -moz-transform: translate(0, 0);
+  -o-transform: translate(0, 0);
+  -ms-transform: translate(0, 0);
+  transform: translate(0, 0);
+}
+@media screen and (max-width: 767px) {
+  /* line 186, ../sass/smoothies.scss */
+  #smoothieToolContainer .slide {
+    width: 100%;
+    top: 0;
+    margin: 0;
+  }
+}
+/* line 218, ../sass/smoothies.scss */
+#smoothieToolContainer #introScreen {
+  -webkit-transform: translate(-150%, 0);
+  -moz-transform: translate(-150%, 0);
+  -o-transform: translate(-150%, 0);
+  -ms-transform: translate(-150%, 0);
+  transform: translate(-150%, 0);
+}
+/* line 220, ../sass/smoothies.scss */
+#smoothieToolContainer #introScreen.focus {
+  -webkit-transform: translate(0, 0);
+  -moz-transform: translate(0, 0);
+  -o-transform: translate(0, 0);
+  -ms-transform: translate(0, 0);
+  transform: translate(0, 0);
+  cursor: pointer;
+}
+/* line 226, ../sass/smoothies.scss */
+#smoothieToolContainer .catGroup {
+  box-sizing: border-box;
+  padding: 20px;
+  border-bottom: solid 1px #D6D6D6;
+  max-height: 60px;
+  overflow: hidden;
+  -webkit-transform: translateZ(0);
+  -webkit-transition: max-height 700ms ease, background 500ms ease;
+  -moz-transition: max-height 700ms ease, background 500ms ease;
+  -o-transition: max-height 700ms ease, background 500ms ease;
+  transition: max-height 700ms ease, background 500ms ease;
+}
+@media screen and (max-width: 767px) {
+  /* line 238, ../sass/smoothies.scss */
+  #smoothieToolContainer .catGroup p {
+    opacity: 0;
+    transition: opacity .25s ease-in-out;
+    -moz-transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out;
+  }
+}
+@media screen and (max-width: 767px) {
+  /* line 226, ../sass/smoothies.scss */
+  #smoothieToolContainer .catGroup {
+    max-height: 110px;
+  }
+}
+/* line 250, ../sass/smoothies.scss */
+#smoothieToolContainer .catGroup:hover {
+  background: rgba(255, 255, 255, 0.5);
+}
+/* line 252, ../sass/smoothies.scss */
+#smoothieToolContainer .catGroup:hover .expandGroup {
+  opacity: 1;
+}
+/* line 256, ../sass/smoothies.scss */
+#smoothieToolContainer .catGroup.active {
+  background: rgba(255, 255, 255, 0.5);
+  max-height: 10000px;
+}
+@media screen and (max-width: 767px) {
+  /* line 260, ../sass/smoothies.scss */
+  #smoothieToolContainer .catGroup.active p {
+    opacity: 1;
+  }
+}
+/* line 264, ../sass/smoothies.scss */
+#smoothieToolContainer .catGroup.active .closeGroup {
+  opacity: 1;
+}
+/* line 267, ../sass/smoothies.scss */
+#smoothieToolContainer .catGroup.active .expandGroup {
+  opacity: 0;
+}
+/* line 271, ../sass/smoothies.scss */
+#smoothieToolContainer .catGroup h3 {
+  display: inline-block;
+  width: 80%;
+  margin-right: -4px;
+  vertical-align: top;
+  cursor: pointer;
+}
+/* line 279, ../sass/smoothies.scss */
+#smoothieToolContainer .catGroup .selectGroup {
+  cursor: pointer;
+}
+/* line 284, ../sass/smoothies.scss */
+#smoothieToolContainer .catGroup .closeGroup {
+  opacity: 1;
+  -webkit-transform: translateZ(0);
+  -webkit-transition: opacity 600ms ease-in;
+  -moz-transition: opacity 600ms ease-in;
+  -o-transition: opacity 600ms ease-in;
+  -ms-transition: opacity 600ms ease-in;
+  transition: opacity 600ms ease-in;
+  display: inline-block;
+  text-align: right;
+  width: 20%;
+  margin-left: -4px;
+  vertical-align: top;
+  font-size: 16px;
+  cursor: pointer;
+}
+@media screen and (max-width: 767px) {
+  /* line 284, ../sass/smoothies.scss */
+  #smoothieToolContainer .catGroup .closeGroup {
+    font-size: 30px;
+  }
+}
+/* line 307, ../sass/smoothies.scss */
+#smoothieToolContainer .ingredientOption {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  border-bottom: solid 1px #D6D6D6;
+  padding: 1em .5em;
+  position: relative;
+}
+@media screen and (max-width: 767px) {
+  /* line 307, ../sass/smoothies.scss */
+  #smoothieToolContainer .ingredientOption {
+    font-size: 24px;
+  }
+}
+/* line 318, ../sass/smoothies.scss */
+#smoothieToolContainer .ingredientOption .ingredientName {
+  display: inline-block;
+  font-weight: bold;
+  line-height: 30px;
+  vertical-align: top;
+  width: 30%;
+}
+/* line 324, ../sass/smoothies.scss */
+#smoothieToolContainer .ingredientOption .ingredientName .serving {
+  opacity: 0;
+  font-size: 11px;
+  color: #A7A7A7;
+  font-style: italic;
+  opacity: 0;
+  -webkit-transform: translateZ(0);
+  -webkit-transition: opacity 600ms ease-in;
+  -moz-transition: opacity 600ms ease-in;
+  -o-transition: opacity 600ms ease-in;
+  -ms-transition: opacity 600ms ease-in;
+  transition: opacity 600ms ease-in;
+  box-sizing: border-box;
+  position: absolute;
+  font-weight: normal;
+  line-height: 11px;
+}
+@media screen and (max-width: 767px) {
+  /* line 324, ../sass/smoothies.scss */
+  #smoothieToolContainer .ingredientOption .ingredientName .serving {
+    font-size: 14px;
+  }
+}
+/* line 345, ../sass/smoothies.scss */
+#smoothieToolContainer .ingredientOption:hover {
+  background: rgba(255, 255, 255, 0.8);
+}
+/* line 348, ../sass/smoothies.scss */
+#smoothieToolContainer .ingredientOption:hover .details.active .more, #smoothieToolContainer .ingredientOption:hover .details .more, #smoothieToolContainer .ingredientOption:hover .ingredientName .serving {
+  opacity: 100;
+}
+/* line 354, ../sass/smoothies.scss */
+#smoothieToolContainer .ingredientOption:first-child {
+  border-top: solid 1px;
+}
+/* line 358, ../sass/smoothies.scss */
+#smoothieToolContainer .ingredientOption .wrapper {
+  display: inline-block;
+  padding: 0 20px;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+/* line 364, ../sass/smoothies.scss */
+#smoothieToolContainer .ingredientOption .wrapper .ingredientTools {
+  -webkit-transform: translateZ(0);
+  -webkit-transition: -webkit-transform 600ms cubic-bezier(0.55, 0.085, 0.68, 0.53);
+  -moz-transition: moz-transform 600ms cubic-bezier(0.55, 0.085, 0.68, 0.53);
+  -o-transition: -o-transform 600ms cubic-bezier(0.55, 0.085, 0.68, 0.53);
+  -ms-transition: -ms-transform 600ms cubic-bezier(0.55, 0.085, 0.68, 0.53);
+  transition: transform 600ms cubic-bezier(0.55, 0.085, 0.68, 0.53);
+  padding: 0 10px;
+  -webkit-transform: translate(-3em, 0);
+  -moz-transform: translate(-3em, 0);
+  -o-transform: translate(-3em, 0);
+  -ms-transform: translate(-3em, 0);
+  transform: translate(-3em, 0);
+  display: inline-block;
+}
+@media screen and (max-width: 767px) {
+  /* line 364, ../sass/smoothies.scss */
+  #smoothieToolContainer .ingredientOption .wrapper .ingredientTools {
+    -webkit-transform: translate(-2em, 0);
+    -moz-transform: translate(-2em, 0);
+    -o-transform: translate(-2em, 0);
+    -ms-transform: translate(-2em, 0);
+    transform: translate(-2em, 0);
+  }
+}
+/* line 378, ../sass/smoothies.scss */
+#smoothieToolContainer .ingredientOption .wrapper .ingredientTools.active {
+  -webkit-transform: translate(0em, 0);
+  -moz-transform: translate(0em, 0);
+  -o-transform: translate(0em, 0);
+  -ms-transform: translate(0em, 0);
+  transform: translate(0em, 0);
+}
+/* line 386, ../sass/smoothies.scss */
+#smoothieToolContainer .ingredientOption .wrapper .ingredientTools > * {
+  display: inline-block;
+  font-size: 20px;
+  padding: 0 5px;
+}
+/* line 392, ../sass/smoothies.scss */
+#smoothieToolContainer .ingredientOption .wrapper .ingredientTools .add, #smoothieToolContainer .ingredientOption .wrapper .ingredientTools .remove {
+  width: 0;
+  height: 0;
+  background: #B5B1B1;
+  line-height: 0;
+  cursor: pointer;
+  border-radius: 50px;
+  color: #666565;
+  padding: 15px;
+  margin: 0;
+  box-sizing: border-box;
+  text-align: left;
+}
+@media screen and (max-width: 767px) {
+  /* line 392, ../sass/smoothies.scss */
+  #smoothieToolContainer .ingredientOption .wrapper .ingredientTools .add, #smoothieToolContainer .ingredientOption .wrapper .ingredientTools .remove {
+    padding: 20px;
+    text-indent: -4px;
+  }
+}
+/* line 412, ../sass/smoothies.scss */
+#smoothieToolContainer .ingredientOption .wrapper .ingredientTools .add {
+  display: inline-block;
+  text-indent: -6px;
+}
+/* line 417, ../sass/smoothies.scss */
+#smoothieToolContainer .ingredientOption .wrapper .ingredientTools .remove, #smoothieToolContainer .ingredientOption .wrapper .ingredientTools .count {
+  opacity: 0;
+  -webkit-transform: translateZ(0);
+  -webkit-transition: opacity 600ms ease-in;
+  -moz-transition: opacity 600ms ease-in;
+  -o-transition: opacity 600ms ease-in;
+  -ms-transition: opacity 600ms ease-in;
+  transition: opacity 600ms ease-in;
+}
+/* line 427, ../sass/smoothies.scss */
+#smoothieToolContainer .ingredientOption .wrapper .ingredientTools.active .remove, #smoothieToolContainer .ingredientOption .wrapper .ingredientTools.active .count {
+  opacity: 100;
+}
+/* line 430, ../sass/smoothies.scss */
+#smoothieToolContainer .ingredientOption .wrapper .ingredientTools .count {
+  vertical-align: top;
+  line-height: 30px;
+}
+@media screen and (max-width: 767px) {
+  /* line 430, ../sass/smoothies.scss */
+  #smoothieToolContainer .ingredientOption .wrapper .ingredientTools .count {
+    font-size: 30px;
+  }
+}
+/* line 437, ../sass/smoothies.scss */
+#smoothieToolContainer .ingredientOption .wrapper .ingredientTools .remove {
+  text-indent: -4px;
+}
+/* line 444, ../sass/smoothies.scss */
+#smoothieToolContainer .ingredientOption .details {
+  display: block;
+  width: 100%;
+  margin-top: 0;
+  text-align: right;
+  max-height: 0;
+  box-sizing: border-box;
+  -webkit-transform: translateZ(0);
+  -webkit-transition: max-height 500ms ease;
+  -moz-transition: max-height 500ms ease;
+  -o-transition: max-height 500ms ease;
+  transition: max-height 500ms ease;
+}
+/* line 457, ../sass/smoothies.scss */
+#smoothieToolContainer .ingredientOption .details.active {
+  /*transform: scaleY(1);*/
+  max-height: 300px;
+}
+/* line 461, ../sass/smoothies.scss */
+#smoothieToolContainer .ingredientOption .details.active .ingredientDesc {
+  opacity: 100;
+}
+/* line 466, ../sass/smoothies.scss */
+#smoothieToolContainer .ingredientOption .details .more {
+  opacity: 0;
+  -webkit-transform: translateZ(0);
+  -webkit-transition: opacity 600ms ease-in;
+  -moz-transition: opacity 600ms ease-in;
+  -o-transition: opacity 600ms ease-in;
+  -ms-transition: opacity 600ms ease-in;
+  transition: opacity 600ms ease-in;
+  box-sizing: border-box;
+  position: absolute;
+  top: -2em;
+  right: 1em;
+}
+@media screen and (max-width: 648px) {
+  /* line 466, ../sass/smoothies.scss */
+  #smoothieToolContainer .ingredientOption .details .more {
+    opacity: 1;
+  }
+}
+/* line 481, ../sass/smoothies.scss */
+#smoothieToolContainer .ingredientOption .details .more:hover {
+  cursor: pointer;
+}
+/* line 486, ../sass/smoothies.scss */
+#smoothieToolContainer .ingredientOption .details .ingredientDesc {
+  opacity: 0;
+  text-align: left;
+  /*transform: scaleY(0);*/
+  -webkit-transform: translateZ(0);
+  -webkit-transition: opacity 600ms ease-in, -webkit-transform 600ms cubic-bezier(0.55, 0.085, 0.68, 0.53);
+  -moz-transition: opacity 600ms ease-in, moz-transform 600ms cubic-bezier(0.55, 0.085, 0.68, 0.53);
+  -o-transition: opacity 600ms ease-in, -o-transform 600ms cubic-bezier(0.55, 0.085, 0.68, 0.53);
+  -ms-transition: opacity 600ms ease-in, -ms-transform 600ms cubic-bezier(0.55, 0.085, 0.68, 0.53);
+  transition: opacity 600ms ease-in, transform 600ms cubic-bezier(0.55, 0.085, 0.68, 0.53);
+  box-sizing: border-box;
+  padding: 1em;
+}
+/* line 517, ../sass/smoothies.scss */
+#smoothieToolContainer p.smoothieStatus {
+  color: #57922c;
+  font-size: 1.5em;
+  -webkit-transition: background-color 600ms ease-in, color 600ms ease-in;
+  -moz-transition: background-color 600ms ease-in, color 600ms ease-in;
+  -o-transition: background-color 600ms ease-in, color 600ms ease-in;
+  -ms-transition: background-color 600ms ease-in, color 600ms ease-in;
+  transition: background-color 600ms ease-in, color 600ms ease-in;
+  /* transitions*/
+  -webkit-transform: translateZ(0);
+}
+/* line 159, ../sass/_mixins.scss */
+#smoothieToolContainer p.smoothieStatus else {
+  -webkit-transition: background-color 500ms ease-in-out;
+  -moz-transition: background-color 500ms ease-in-out;
+  -o-transition: background-color 500ms ease-in-out;
+  -ms-transform: background-color 500ms ease-in-out;
+  transition: background-color 500ms ease-in-out;
+}
+/* line 159, ../sass/_mixins.scss */
+#smoothieToolContainer p.smoothieStatus else {
+  -webkit-transition: color 500ms ease-in-out;
+  -moz-transition: color 500ms ease-in-out;
+  -o-transition: color 500ms ease-in-out;
+  -ms-transform: color 500ms ease-in-out;
+  transition: color 500ms ease-in-out;
+}
+/* line 531, ../sass/smoothies.scss */
+#smoothieToolContainer p.smoothieStatus.error {
+  color: #FF0000;
+}
+/* line 534, ../sass/smoothies.scss */
+#smoothieToolContainer p.smoothieStatus.warning {
+  color: #ea7d2f;
+}
+/* line 537, ../sass/smoothies.scss */
+#smoothieToolContainer p.smoothieStatus.highlight {
+  background-color: #ffe4c2;
+}
+@media screen and (max-width: 767px) {
+  /* line 517, ../sass/smoothies.scss */
+  #smoothieToolContainer p.smoothieStatus {
+    font-size: 20px;
+  }
+}
+/* line 545, ../sass/smoothies.scss */
+#smoothieToolContainer #smoothieActions h2 {
+  color: #57922c;
+  text-transform: uppercase;
+  font-family: "LeagueGothic", "Lucida Sans", "Lucida Grande", sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  font-weight: normal;
+}
+@media screen and (max-width: 767px) {
+  /* line 545, ../sass/smoothies.scss */
+  #smoothieToolContainer #smoothieActions h2 {
+    font-size: 34px;
+    line-height: 34px;
+    margin-bottom: 0;
+  }
+}
+/* line 562, ../sass/smoothies.scss */
+#smoothieToolContainer h3.cat {
+  color: #797979;
+  text-transform: uppercase;
+  font-family: "LeagueGothic", "Lucida Sans", "Lucida Grande", sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  font-weight: normal;
+}
+@media screen and (max-width: 767px) {
+  /* line 562, ../sass/smoothies.scss */
+  #smoothieToolContainer h3.cat {
+    font-size: 46px;
+  }
+}
+/* line 574, ../sass/smoothies.scss */
+#smoothieToolContainer #builder {
+  background-color: rgba(255, 255, 255, 0.8);
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.3);
+  color: #797979;
+  opacity: 0;
+}
+@media screen and (max-width: 767px) {
+  /* line 574, ../sass/smoothies.scss */
+  #smoothieToolContainer #builder {
+    background-color: #fff;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+  }
+}
+/* line 159, ../sass/_mixins.scss */
+#smoothieToolContainer #builder else {
+  -webkit-transition: opacity 500ms ease-in-out;
+  -moz-transition: opacity 500ms ease-in-out;
+  -o-transition: opacity 500ms ease-in-out;
+  -ms-transform: opacity 500ms ease-in-out;
+  transition: opacity 500ms ease-in-out;
+}
+/* line 579, ../sass/smoothies.scss */
+#smoothieToolContainer #builder.focus {
+  opacity: 1;
+}
+@media screen and (max-width: 767px) {
+  /* line 574, ../sass/smoothies.scss */
+  #smoothieToolContainer #builder {
+    padding: 0;
+  }
+  /* line 584, ../sass/smoothies.scss */
+  #smoothieToolContainer #builder.fixed {
+    position: fixed;
+  }
+}
+/* line 590, ../sass/smoothies.scss */
+#smoothieToolContainer #smoothieBuilderBox {
+  display: inline-block;
+  box-sizing: border-box;
+  margin-left: -4px;
+  width: 40%;
+}
+@media screen and (max-width: 767px) {
+  /* line 590, ../sass/smoothies.scss */
+  #smoothieToolContainer #smoothieBuilderBox {
+    display: block;
+    width: 100%;
+    padding-top: 15%;
+    background: #fff;
+    position: absolute;
+    margin: auto;
+    z-index: 10;
+    -webkit-transform: translate(100%, 0);
+    -moz-transform: translate(100%, 0);
+    -o-transform: translate(100%, 0);
+    -ms-transform: translate(100%, 0);
+    transform: translate(100%, 0);
+    -webkit-transition: -webkit- transform 500ms ease-in-out;
+    -moz-transition: -moz- transform 500ms ease-in-out;
+    -o-transition: -o- transform 500ms ease-in-out;
+    -ms-transform: -o- transform 500ms ease-in-out;
+    transition: transform 500ms ease-in-out;
+  }
+  /* line 159, ../sass/_mixins.scss */
+  #smoothieToolContainer #smoothieBuilderBox else {
+    -webkit-transition: transform 500ms ease-in-out;
+    -moz-transition: transform 500ms ease-in-out;
+    -o-transition: transform 500ms ease-in-out;
+    -ms-transform: transform 500ms ease-in-out;
+    transition: transform 500ms ease-in-out;
+  }
+  /* line 605, ../sass/smoothies.scss */
+  #smoothieToolContainer #smoothieBuilderBox.review {
+    -webkit-transform: translate(0, 0);
+    -moz-transform: translate(0, 0);
+    -o-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    transform: translate(0, 0);
+  }
+}
+/* line 614, ../sass/smoothies.scss */
+#smoothieToolContainer .removeThis {
+  cursor: pointer;
+}
+/* line 618, ../sass/smoothies.scss */
+#smoothieToolContainer #smoothiePrint {
+  width: 300px;
+  height: 600px;
+}
+/* line 623, ../sass/smoothies.scss */
+#smoothieToolContainer #flavorBox {
+  display: block;
+  height: 100px;
+  max-height: 0;
+}
+/* line 159, ../sass/_mixins.scss */
+#smoothieToolContainer #flavorBox else {
+  -webkit-transition: max-height 500ms ease-in-out;
+  -moz-transition: max-height 500ms ease-in-out;
+  -o-transition: max-height 500ms ease-in-out;
+  -ms-transform: max-height 500ms ease-in-out;
+  transition: max-height 500ms ease-in-out;
+}
+/* line 630, ../sass/smoothies.scss */
+#smoothieToolContainer #flavorContainer {
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0.25);
+}
+/* line 636, ../sass/smoothies.scss */
+#smoothieToolContainer .flavorFill {
+  cursor: pointer;
+}
+/* line 639, ../sass/smoothies.scss */
+#smoothieToolContainer .flavorFillText {
+  cursor: pointer;
+}
+/* line 643, ../sass/smoothies.scss */
+#smoothieToolContainer .closeFlavors {
+  cursor: pointer;
+}
+/* line 647, ../sass/smoothies.scss */
+#smoothieToolContainer #flavorExpanded {
+  opacity: 0;
+  -webkit-transition: opacity 300 ease-in-out;
+  -moz-transition: opacity 300 ease-in-out;
+  -o-transition: opacity 300 ease-in-out;
+  -ms-transform: opacity 300 ease-in-out;
+  transition: opacity 300 ease-in-out;
+}
+/* line 655, ../sass/smoothies.scss */
+#smoothieToolContainer #flavorExpanded.open {
+  opacity: 1;
+}
+/* line 664, ../sass/smoothies.scss */
+#smoothieToolContainer #smoothieTool {
+  min-height: 400px;
+}
+@media screen and (max-width: 767px) {
+  /* line 664, ../sass/smoothies.scss */
+  #smoothieToolContainer #smoothieTool {
+    max-width: 100%;
+    max-height: 800px;
+    margin-left: -5%;
+  }
+}
+/* line 676, ../sass/smoothies.scss */
+#smoothieToolContainer #smoothieResults h4 {
+  display: inline-block;
+  font-family: "LeagueGothic","Lucida Sans","Lucida Grande",sans-serif !important;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  color: #797979;
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 30px;
+}
+/* line 687, ../sass/smoothies.scss */
+#smoothieToolContainer #smoothieResults .socialLinks a:link, #smoothieToolContainer #smoothieResults .socialLinks a:visited, #smoothieToolContainer #smoothieResults .socialLinks a:active {
+  color: #797979;
+  font-size: 30px;
+  margin: 10px;
+}
+/* line 691, ../sass/smoothies.scss */
+#smoothieToolContainer #smoothieResults .socialLinks a:link:hover, #smoothieToolContainer #smoothieResults .socialLinks a:visited:hover, #smoothieToolContainer #smoothieResults .socialLinks a:active:hover {
+  color: #ea906e;
+}
+/* line 700, ../sass/smoothies.scss */
+#smoothieToolContainer #options {
+  display: inline-block;
+  width: 60%;
+  box-sizing: border-box;
+  margin-left: -4px;
+  padding: 20px 20px 20px 40px;
+  vertical-align: top;
+}
+@media screen and (max-width: 767px) {
+  /* line 700, ../sass/smoothies.scss */
+  #smoothieToolContainer #options {
+    display: block;
+    width: 100%;
+    margin: auto;
+    position: absolute;
+    background: #fff;
+    padding: 20px 20px 80px;
+    margin: auto;
+    top: 0;
+    z-index: 0;
+  }
+  /* line 718, ../sass/smoothies.scss */
+  #smoothieToolContainer #options #smoothieButtons {
+    display: none;
+  }
+}
+@media screen and (min-width: 768px) {
+  /* line 726, ../sass/smoothies.scss */
+  #smoothieToolContainer #smoothieButtonsMobile {
+    display: none;
+  }
+}
+@media screen and (max-width: 767px) {
+  /* line 734, ../sass/smoothies.scss */
+  #smoothieToolContainer #smoothieButtonsMobile {
+    opacity: 0;
+    background: #fff;
+    text-align: center;
+    display: block !important;
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    height: 100px;
+    width: 100%;
+    padding-top: 20px;
+    box-sizing: border-box;
+    -moz-box-shadow: 0 -10px 10px -10px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 0 -10px 10px -10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 -10px 10px -10px rgba(0, 0, 0, 0.5);
+    -webkit-transform: translateZ(0);
+    -webkit-transition: opacity 600ms ease-in, -webkit-transform 600ms cubic-bezier(0.55, 0.085, 0.68, 0.53);
+    -moz-transition: opacity 600ms ease-in, moz-transform 600ms cubic-bezier(0.55, 0.085, 0.68, 0.53);
+    -o-transition: opacity 600ms ease-in, -o-transform 600ms cubic-bezier(0.55, 0.085, 0.68, 0.53);
+    -ms-transition: opacity 600ms ease-in, -ms-transform 600ms cubic-bezier(0.55, 0.085, 0.68, 0.53);
+    transition: opacity 600ms ease-in, transform 600ms cubic-bezier(0.55, 0.085, 0.68, 0.53);
+    -webkit-transform: translate(0, 100%);
+    -moz-transform: translate(0, 100%);
+    -o-transform: translate(0, 100%);
+    -ms-transform: translate(0, 100%);
+    transform: translate(0, 100%);
+  }
+  /* line 758, ../sass/smoothies.scss */
+  #smoothieToolContainer #smoothieButtonsMobile.active {
+    opacity: 1;
+    -webkit-transform: translate(0, 0);
+    -moz-transform: translate(0, 0);
+    -o-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    transform: translate(0, 0);
+  }
+  /* line 763, ../sass/smoothies.scss */
+  #smoothieToolContainer #smoothieButtonsMobile button#resetMobile.cta {
+    background: #fff !important;
+    color: #ea7d2f !important;
+  }
+}
+/* line 772, ../sass/smoothies.scss */
+#smoothieToolContainer #ingredientOptions {
+  height: 400px;
+  box-sizing: border-box;
+  overflow-y: scroll;
+  vertical-align: top;
+  margin-bottom: 1em;
+  -moz-box-shadow: inset 0 -10px 10px -10px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: inset 0 -10px 10px -10px rgba(0, 0, 0, 0.5);
+  box-shadow: inset 0 -10px 10px -10px rgba(0, 0, 0, 0.5);
+}
+@media screen and (max-width: 767px) {
+  /* line 772, ../sass/smoothies.scss */
+  #smoothieToolContainer #ingredientOptions {
+    height: 600px;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+  }
+}
+/* line 791, ../sass/smoothies.scss */
+#smoothieToolContainer #results {
+  visibility: hidden;
+  position: absolute;
+  padding: 20px;
+  top: 0;
+}
+/* line 798, ../sass/smoothies.scss */
+#smoothieToolContainer .complete {
+  max-height: 10000px;
+}
+/* line 800, ../sass/smoothies.scss */
+#smoothieToolContainer .complete #smoothieActions {
+  visibility: hidden;
+}
+/* line 803, ../sass/smoothies.scss */
+#smoothieToolContainer .complete #results {
+  visibility: visible;
+}
+@media screen and (max-width: 767px) {
+  /* line 803, ../sass/smoothies.scss */
+  #smoothieToolContainer .complete #results {
+    background: #fff;
+    margin-left: -20px;
+    padding: 20px;
+  }
+}
+
+/* line 816, ../sass/smoothies.scss */
+svg text {
+  text-transform: uppercase;
+  font-family: "LeagueGothic", "Lucida Sans", "Lucida Grande", sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  font-weight: normal;
+}
+
+/* line 826, ../sass/smoothies.scss */
+#recipes-block .view-id-recipes {
+  margin: 0 -10px;
+}
+/* line 830, ../sass/smoothies.scss */
+#recipes-block .view-id-recipes .views-row {
+  width: 33% !important;
+  max-width: 33% !important;
+  height: auto !important;
+  min-height: 260px;
+  float: left;
+  padding: 0 10px !important;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  margin-right: -4px;
+}
+/* line 843, ../sass/smoothies.scss */
+#recipes-block .views-field.views-field-field-hero-image {
+  width: 100% !important;
+  height: auto !important;
+  border: none !important;
+}
+/* line 849, ../sass/smoothies.scss */
+#recipes-block img {
+  border: none !important;
+  margin-bottom: 0px !important;
+  max-width: 100%;
+}
+/* line 855, ../sass/smoothies.scss */
+#recipes-block .views-field.views-field-field-recipe-rating {
+  display: none;
+}
+/* line 859, ../sass/smoothies.scss */
+#recipes-block .views-field.views-field-title {
+  padding: 5px 0 !important;
+}
+/* line 863, ../sass/smoothies.scss */
+#recipes-block .views-field.views-field-title span a {
+  font-family: "LeagueGothic","Lucida Sans","Lucida Grande",sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-weight: normal;
+  font-size: 24px !important;
+  display: block;
+  line-height: 30px;
+  padding: 10px 0 15px;
+  border-bottom: none;
+  text-decoration: underline;
+  text-align: left;
+  text-transform: uppercase;
+}
+/* line 878, ../sass/smoothies.scss */
+#recipes-block html.wholefoods-mobile-theme ul.rc-links {
+  display: none;
+}
+@media only screen and (min-width: 420px) and (max-width: 600px) {
+  /* line 883, ../sass/smoothies.scss */
+  #recipes-block .views-field.views-field-field-hero-image {
+    max-width: 100% !important;
+    width: 100% important;
+  }
+  /* line 887, ../sass/smoothies.scss */
+  #recipes-block .view-id-generic_page_items img {
+    max-width: 100%;
+  }
+  /* line 890, ../sass/smoothies.scss */
+  #recipes-block .view-id-recipes.view-display-id-by_argument .views-row {
+    margin-bottom: 2em;
+  }
+  /* line 894, ../sass/smoothies.scss */
+  #recipes-block ul.rc-links {
+    display: none !important;
+  }
+}
+
+/* line 900, ../sass/smoothies.scss */
+.cta {
+  color: #fff;
+  background: #ea7d2f;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-font-smoothing: antialiased;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-timing-function: ease-in-out;
+  -moz-transition: 0.4s;
+  -ms-transition: 0.4s;
+  -o-transition: 0.4s;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  -webkit-transition-property: color, background-color, opacity;
+  -moz-transition-property: color, background-color, opacity;
+  -o-transition-property: color, background-color, opacity;
+  -ms-transition-property: color, background-color, opacity;
+  transition-property: color, background-color, opacity;
+  font-size: 22px;
+  line-height: 28px;
+  font-family: "LeagueGothic", "Lucida Sans", "Lucida Grande", sans-serif;
+  color: white;
+  padding: 2px 10px;
+  text-transform: uppercase;
+  border-top: 0 none;
+  border-left: 0 none;
+  border-bottom: none;
+  border-right: none;
+  text-decoration: none;
+  height: auto;
+  border-radius: none;
+  -webkit-appearance: none;
+  -webkit-border-radius: 0;
+  font-size: 28px;
+  line-height: 36px;
+  padding: 4px 12px;
+  text-align: center;
+  cursor: pointer;
+}
+/* line 109, ../sass/_mixins.scss */
+.cta:hover {
+  background: #ba5813;
+  border: none;
+  color: #fff;
+}
+/* line 909, ../sass/smoothies.scss */
+.cta.cta-seasonal {
+  background: #fff000;
+  color: #d16315;
+}
+@media screen and (max-width: 648px) {
+  /* line 900, ../sass/smoothies.scss */
+  .cta {
+    font-size: 35px;
+    line-height: 35px;
+    padding: 6px 25px;
+  }
+  /* line 917, ../sass/smoothies.scss */
+  .cta.cta-seasonal {
+    background: #ea7d2f;
+    color: white;
+  }
+}
+
+/* line 924, ../sass/smoothies.scss */
+#button {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-font-smoothing: antialiased;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-timing-function: ease-in-out;
+  -moz-transition: 0.4s;
+  -ms-transition: 0.4s;
+  -o-transition: 0.4s;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  -webkit-transition-property: color, background-color, opacity;
+  -moz-transition-property: color, background-color, opacity;
+  -o-transition-property: color, background-color, opacity;
+  -ms-transition-property: color, background-color, opacity;
+  transition-property: color, background-color, opacity;
+  font-size: 22px;
+  line-height: 28px;
+  font-family: "LeagueGothic", "Lucida Sans", "Lucida Grande", sans-serif;
+  color: white;
+  padding: 2px 10px;
+  text-transform: uppercase;
+  border-top: 0 none;
+  border-left: 0 none;
+  border-bottom: none;
+  border-right: none;
+  text-decoration: none;
+  height: auto;
+  border-radius: none;
+  -webkit-appearance: none;
+  -webkit-border-radius: 0;
+}
+/* line 109, ../sass/_mixins.scss */
+#button:hover {
+  background: #ba5813;
+  border: none;
+  color: #fff;
+}
+
+/* line 928, ../sass/smoothies.scss */
+.resultsbuttons {
+  text-align: center;
+  margin: 1em auto;
+}
+
+/* line 933, ../sass/smoothies.scss */
+#blendLink {
+  color: #ea7d2f;
+  font-weight: bold;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/* line 939, ../sass/smoothies.scss */
+#smoothieButtons {
+  text-align: center;
+}
+/* line 941, ../sass/smoothies.scss */
+#smoothieButtons button#reset.cta {
+  background: #fff !important;
+  color: #ea7d2f !important;
+}
+
+/* line 948, ../sass/smoothies.scss */
+#printOnly {
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+  /* line 952, ../sass/smoothies.scss */
+  p.mobileOnly {
+    padding-bottom: 0;
+  }
+}
+
+/* line 958, ../sass/smoothies.scss */
+.mobileOnly {
+  display: none;
+}
+@media screen and (max-width: 767px) {
+  /* line 958, ../sass/smoothies.scss */
+  .mobileOnly {
+    display: inherit;
+  }
+  /* line 962, ../sass/smoothies.scss */
+  .mobileOnly.cta {
+    display: inline-block;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  /* line 968, ../sass/smoothies.scss */
+  .desktopOnly {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  /* line 977, ../sass/smoothies.scss */
+  #smoothieToolContainer.complete #smoothieBuilderBox {
+    -webkit-transform: translate(100%, 0);
+    -moz-transform: translate(100%, 0);
+    -o-transform: translate(100%, 0);
+    -ms-transform: translate(100%, 0);
+    transform: translate(100%, 0);
+    position: fixed;
+    height: 500px;
+  }
+  /* line 981, ../sass/smoothies.scss */
+  #smoothieToolContainer.complete #smoothieBuilderBox.review {
+    -webkit-transform: translate(0, 0);
+    -moz-transform: translate(0, 0);
+    -o-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    transform: translate(0, 0);
+  }
+}
+/* Print Styles */
+@media print {
+  /* line 1025, ../sass/smoothies.scss */
+  * {
+    background-image: none;
+    background: none;
+  }
+
+  /* line 1030, ../sass/smoothies.scss */
+  body {
+    font-family: 'Lucida Sans', sans-serif;
+    font-size: 16px;
+  }
+
+  /* line 1035, ../sass/smoothies.scss */
+  h2 {
+    font-size: 40px;
+  }
+
+  /* line 1039, ../sass/smoothies.scss */
+  #printOnly {
+    display: block;
+    padding: 1em 2em;
+  }
+
+  /* line 1044, ../sass/smoothies.scss */
+  #resultsPrint {
+    display: inline;
+  }
+  /* line 1046, ../sass/smoothies.scss */
+  #resultsPrint #nutritionPrint {
+    display: inline-block;
+  }
+
+  /* line 1051, ../sass/smoothies.scss */
+  #svgPrint {
+    vertical-align: top;
+    display: block;
+    width: 30%;
+    float: right;
+    margin-left: 1em;
+    margin-bottom: 1em;
+    text-align: center;
+  }
+  /* line 1059, ../sass/smoothies.scss */
+  #svgPrint svg {
+    width: 100%;
+    margin: auto;
+    display: block;
+  }
+
+  /* line 1066, ../sass/smoothies.scss */
+  .contentwidth {
+    width: 100%;
+  }
+
+  /* line 1070, ../sass/smoothies.scss */
+  .noprint {
+    display: none !important;
+  }
+}

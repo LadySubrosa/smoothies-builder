@@ -1,0 +1,169 @@
+//DRUPAL OVERRIDES
+.page-node #content .section > .torn-pod-content .contentbox #block-views-generic-page-items-block-2, .page-node #content .section > .torn-pod-content .contentbox .block-views, .node-type-page #content .section > .torn-pod-content .contentbox #block-views-generic-page-items-block-2, .node-type-page #content .section > .torn-pod-content .contentbox .block-views {
+    padding: 0;
+}
+@media screen and (max-width: $small-breakpoint) {
+  .view-id-generic_page_items img {
+    max-width: 100% !important;
+  }
+  #page > * {
+    padding: 0 !important;
+  }
+}
+
+.undernav-active .torn-pod-content h2, .undernav-active #views_infinite_scroll-ajax-loader h2 {
+  line-height: 1.2em;
+}
+
+body, body.PersonaHeader_Info {
+  margin: 0 auto;
+  background: #fff;
+  @media only screen and (max-width: 728px) {
+      background: #fff;
+      .view-generic-page-items.view-display-id-block_1 .view-content, .view-generic-page-items.view-display-id-block_2 .view-content {
+        margin-top:1px;
+      }
+      #page #section-content {
+        padding-top: 1px;
+      }
+    }
+    .views-field-field-body-mobile {
+    background: #fff;
+  }
+  .region-marquee {
+    background: none;
+  }
+  #block-views-marquee-page-block {
+    border-bottom: none;
+    background: #fff bottom repeat-x !important;
+    padding-bottom: 62px !important;
+  }
+  .marquee-left, .marquee-right {
+    padding-left: 0px;
+    padding-right:0px;
+    background: none !important;
+    border: none !important;
+  }
+  #block-views-marquee-page-block .content {
+    width: 100%;
+    margin: auto;
+    background: none !important;
+  }
+  .push {
+    //display: block;
+    //height: 0px !important;
+    @media only screen and (min-width : 700px) and (max-width : 999px){
+      height: 0px !important;
+    }
+    @media only screen and (min-device-width : 320px) and (max-device-width : 480px){
+      height: 20px !important;
+    }
+  }
+
+  .clearboth {clear:both;height: 0px;}
+  #footer {
+    background:none;
+    height: 970px !important;
+  }
+  #footer .section {
+    width: 960px;
+    height: 970px;
+    padding: 0 40px;
+    // background: #22332d;
+    box-sizing: border-box;
+  }
+  div.footer-new-container div.footer-column {
+    width: 230px !important;
+  }
+  div.footer-new-container div#footer-right {
+    width: 355px !important;
+  }
+}
+
+//Make Full width
+body {
+  &.logged-in {
+    padding-top:150px !important;
+    .tabs {
+      margin: 10px auto 0;
+      display: block;
+      width: 960px;
+      position: relative;
+      z-index: 10;
+    }
+    #container.holiday-top-nav {
+      margin-top: 10px;
+    }
+  }
+  @media only screen and (max-width: 1400px) and (min-width: 1220px) {
+    #main {
+      margin-left: 0px !important;
+    }
+  }
+  #main {
+    width: 100% !important;
+  }
+  #main-wrapper {
+    z-index: 0 !important;
+     @media only screen and (min-width: 1592px){
+        margin-top: -492px !important;
+     }
+  }
+  #page {
+    margin: 0 !important;
+  }
+  #content-bottom {
+    #container {
+      max-width: 100%;
+    }
+    .wrapper.article {
+      max-width: 960px;
+    }
+    #newsletter-block {
+      max-width: 960px;
+      margin: auto;
+    }
+  }
+  // #footer {
+  //   background: #22332d;
+  // }
+}
+
+.wholefoods-mobile-theme body {
+  #page-wrapper {
+    margin: 0 auto !important;
+  }
+}
+
+
+
+#page #section-content {
+  padding: 0;
+}
+/* Breadcrumb Styling */
+
+.page-node #content .section > .torn-pod-content div#breadcrumb.shown {
+  width: 960px;
+  max-width:100%;
+      @media screen and (min-width: 1220px) and (max-width: 1480px){
+      width: 800px;
+    }
+  margin: auto !important;
+    .breadcrumb {
+      display: block;
+      position:absolute;
+      z-index: 100;
+      width: 960px;
+      max-width:100%;
+      color: #fff;
+      padding-top: 60px;
+
+      a:link, a:hover, a:visited, a:active {
+        color: #fff;
+      }
+      @media screen and (max-width: $mobile-max-breakpoint){
+        width:100%;
+      }
+    }
+}
+

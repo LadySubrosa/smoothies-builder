@@ -1,0 +1,409 @@
+#smoothieToolContainer {
+    background: url(http://assets.wholefoodsmarket.com.s3.amazonaws.com/www/recipes/smoothies/img/smoothiebg.jpg) no-repeat;
+    background-size: 100% auto;
+    display: block;
+    box-sizing: border-box;
+    padding: 20px;
+    min-height: 680px;
+    color: #fff;
+    position: relative;
+}
+
+
+.ingredientName {
+    display: inline-block;
+    font-weight: bold;
+    line-height: 30px;
+    vertical-align: top;
+}
+
+::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 7px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: rgba(0,0,0,.5);
+    -webkit-box-shadow: 0 0 1px rgba(255,255,255,.5);
+}
+
+
+#steps {
+    display: block;
+    width: 80%;
+    margin: auto;
+}
+
+.step {
+    display: inline-block;
+    width:33%;
+    margin-left: -4px;
+    text-align: center;
+}
+
+.step img {
+    width: 100px;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 0;
+}
+
+#introScreen {
+    text-align: center;
+}
+
+
+#smoothieToolContainer #introScreen h2, #smoothieToolContainer #introScreen h3{
+    color: #fff;
+}
+.contentwidth {
+    width: 960px;
+    margin: 1em auto;
+    display: block;
+}
+
+.slide {
+    display: block;
+    box-sizing: border-box;
+    /*width: 100%;
+    margin: 0;*/
+    width: 960px;
+    max-width: 100%;
+    margin: auto;
+    padding: 20px;
+    margin: 20px;
+    /*height: 100%;*/
+    position: absolute;
+    top: 0;
+    /*left: 0;*/
+    visibility: hidden;
+    max-height: 640px;
+}
+
+.slide.focus {
+    visibility: visible;
+}
+
+.ingredientTools > * {
+    display: inline-block;
+    font-size: 20px;
+    padding: 0 5px;
+}
+
+.add, .remove {
+    width: 0;
+    height: 0;
+    background: #B5B1B1;
+    line-height: 0;
+    cursor: pointer;
+    border-radius: 50px;
+    color: #666565;
+    padding: 15px;
+    margin: 0;
+    box-sizing: border-box;
+    text-align: left;
+    text-indent: -6px;
+}
+
+.add {
+    display: inline-block;
+}
+
+.remove, .count {
+    opacity: 0;
+     -webkit-transition: opacity 600ms ease-in;
+    -moz-transition: opacity 600ms ease-in;
+    -o-transition: opacity 600ms ease-in;
+    -ms-transition: opacity 600ms ease-in;
+    transition: opacity 600ms ease-in;
+}
+
+.ingredientTools.active .remove, .ingredientTools.active .count {
+    opacity: 100;
+}
+
+.ingredientTools.active {
+    -webkit-transform: translate(0em,0);
+    -moz-transform: translate(0em,0);
+    -o-transform: translate(0em,0);
+    -ms-transform: translate(0em,0);
+    transform: translate(0em,0);
+}
+
+.ingredientTools{
+    -webkit-transition: -webkit-transform 600ms cubic-bezier(0.550, 0.085, 0.680, 0.530);
+    -moz-transition: moz-transform 600ms cubic-bezier(0.550, 0.085, 0.680, 0.530);
+    -o-transition: -o-transform 600ms cubic-bezier(0.550, 0.085, 0.680, 0.530);
+    -ms-transition: -ms-transform 600ms cubic-bezier(0.550, 0.085, 0.680, 0.530);
+    transition: transform 600ms cubic-bezier(0.550, 0.085, 0.680, 0.530);
+    -webkit-transform: translate(-4em,0);
+    -moz-transform: translate(-4em,0);
+    -o-transform: translate(-4em,0);
+    -ms-transform: translate(-4em,0);
+    transform: translate(-4em,0);
+    display: inline-block;
+}
+
+.ingredientOption .wrapper {
+    display: inline-block;
+    margin-left: 1em;
+    overflow-x: hidden;
+}
+
+.ingredientOption .more {
+    opacity: 0;
+        -webkit-transition: opacity 600ms ease-in;
+    -moz-transition: opacity 600ms ease-in;
+    -o-transition: opacity 600ms ease-in;
+    -ms-transition: opacity 600ms ease-in;
+    transition: opacity 600ms ease-in;
+        
+    box-sizing: border-box;
+    /*padding: 1em;*/
+    position: absolute;
+    top: 1em;
+    right: 1em;
+}
+
+.ingredientOption .more:hover {
+    cursor: pointer;
+}
+
+.ingredientOption .details {
+    display: block;
+    /*position: absolute;*/
+    text-align: right;
+    max-height: 0;
+    box-sizing: border-box;
+    -webkit-transition:max-height 500ms ease;
+    -moz-transition:max-height 500ms ease;
+    -o-transition:max-height 500ms ease;
+    transition:max-height 500ms ease;
+}
+
+.ingredientOption .details .ingredientDesc {
+    opacity: 0;
+    text-align: left;
+    /*transform: scaleY(0);*/
+    -webkit-transition: opacity 600ms ease-in, -webkit-transform 600ms cubic-bezier(0.550, 0.085, 0.680, 0.530);
+    -moz-transition: opacity 600ms ease-in, moz-transform 600ms cubic-bezier(0.550, 0.085, 0.680, 0.530);
+    -o-transition: opacity 600ms ease-in, -o-transform 600ms cubic-bezier(0.550, 0.085, 0.680, 0.530);
+    -ms-transition: opacity 600ms ease-in, -ms-transform 600ms cubic-bezier(0.550, 0.085, 0.680, 0.530);
+    transition: opacity 600ms ease-in, transform 600ms cubic-bezier(0.550, 0.085, 0.680, 0.530);
+    box-sizing: border-box;
+    padding: 1em;
+}
+
+.ingredientOption .details.active {
+    /*transform: scaleY(1);*/
+    max-height:300px;
+}
+
+
+.ingredientOption .details.active .ingredientDesc {
+    opacity: 100;
+    max-he
+}
+
+.ingredientOption {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    border-bottom: solid 1px;
+    padding: 1em .5em;
+    position: relative;
+}
+
+.ingredientOption:hover {
+    background: rgba(255, 255, 255,.8);
+}
+
+.ingredientOption:hover .more, .details.active .more {
+    opacity: 100;
+}
+
+ingredientOption:first-child {
+    border-top: solid 1px;
+}
+
+p.smoothieStatus {
+    color: #57922c;
+}
+
+#smoothieActions h2 {
+        color: #57922c;
+        text-transform: uppercase;
+        font-family: "LeagueGothic", "Lucida Sans", "Lucida Grande", sans-serif;
+}
+
+h3.cat {    
+    color: #797979;
+    text-transform: uppercase;
+    font-family: "LeagueGothic", "Lucida Sans", "Lucida Grande", sans-serif;
+}
+
+#builder {
+    background-color: rgba(255,255,255,0.8);
+    color: #797979;
+    box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.3);
+    -webkit-box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.3);
+}
+
+#smoothieBuilderBox {
+    display: inline-block;
+    box-sizing: border-box;
+    margin-left: -4px;
+    width: 40%;
+}
+
+.removeThis {
+    cursor: pointer;
+}
+
+#smoothiePrint {
+    width: 300px;
+    height: 600px;
+}
+
+#smoothieTool {
+    min-height: 400px;
+}
+
+#options {
+    display: inline-block;
+    width: 60%;
+    box-sizing: border-box;
+    margin-left: -4px;
+    padding: 20px 20px 20px 40px;
+    vertical-align: top;
+
+}
+
+#ingredientOptions {
+        height: 400px;
+    box-sizing: border-box;
+    overflow-y: scroll;
+    vertical-align: top;
+    margin-bottom: 1em;
+}
+
+#results {
+    visibility: hidden;
+    position:absolute;
+    padding: 20px;
+    top: 0;
+}
+
+.complete #smoothieActions {
+    visibility: hidden;
+}
+
+.complete #results {
+    visibility: visible;
+}
+
+
+svg text {
+  text-transform: uppercase;
+  font-family: "LeagueGothic", "Lucida Sans", "Lucida Grande", sans-serif;
+}
+
+
+.cta {
+    color: #fff;
+    background: #ea7d2f;
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-font-smoothing: antialiased;
+    animation-timing-function: ease-in-out;
+    -webkit-animation-timing-function: ease-in-out;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+    -webkit-transition-property: color, background-color, opacity;
+    -moz-transition-property: color, background-color, opacity;
+    -o-transition-property: color, background-color, opacity;
+    -ms-transition-property: color, background-color, opacity;
+    transition-property: color, background-color, opacity;
+    font-size: 22px;
+    line-height: 28px;
+    font-family: "LeagueGothic", "Lucida Sans", "Lucida Grande", sans-serif;
+    color: white;
+    padding: 2px 10px;
+    text-transform: uppercase;
+    border-top: 0 none;
+    border-left: 0 none;
+    border-bottom: none;
+    border-right: none;
+    text-decoration: none;
+    height: auto;
+    text-align: center;
+}
+
+.cta.disabled {
+    background-color: #333;
+    cursor: pointer;
+}
+
+#printOnly {
+    display: none;
+}
+
+/* Print Styles */
+@media print {
+
+* {
+    background-image: none;
+    background: none;
+}
+
+body {
+    font-family: 'Lucida Sans', sans-serif;
+    font-size: 18px;
+}
+
+#printOnly {
+    display: block;
+}
+
+.noprint {
+    display: none !important;
+}
+
+}
+
+
+
+/* Override marquee, background colors */
+#main {
+    width: auto !important;
+}
+
+.tabs, #breadcrumb.shown {
+    width: 960px;
+    margin: auto !important;
+    display: block;
+}
+
+
+ body,  #region-marquee, .region-marquee, #block-views-marquee-page-block, #page, .push, .marquee-left, .marquee-right {
+  background: #fff;
+ }
+
+.header {
+  background: rgba(0,0,0,0.5) !important;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000',endColorstr='#80000000',GradientType=0) !important;
+}
+
+
+ #region-marquee img{
+  display: none;
+ }
+
+ .page-node #content .section > .torn-pod-content .contentbox #block-views-generic-page-items-block-2, .page-node #content .section > .torn-pod-content .contentbox .block-views, .node-type-page #content .section > .torn-pod-content .contentbox #block-views-generic-page-items-block-2, .node-type-page #content .section > .torn-pod-content .contentbox .block-views{
+    padding: 0;
+ }

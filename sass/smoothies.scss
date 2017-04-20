@@ -1,0 +1,1074 @@
+@import 'mixins';
+//@import 'signup';
+@import 'overrides';
+
+// body, * {
+//   -webkit-text-size-adjust: 100% !important;
+//   -moz-text-size-adjust:100%; 
+//   -ms-text-size-adjust:100%;
+// }
+
+#ingredientOptions::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background-color: rgba(0,0,0,.5);
+  -webkit-box-shadow: 0 0 1px rgba(255,255,255,.5);
+}
+
+#copy {
+  box-sizing: border-box;
+  padding: 0 1em;
+
+}
+
+h2, .view-generic-page-items.view-display-id-block_1 h2:first-of-type{
+  text-transform: uppercase;
+  font-family: "LeagueGothic", "Lucida Sans", "Lucida Grande", sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  font-weight: normal;
+}
+
+body.noscroll {
+  overflow: hidden;
+  position:fixed;
+}
+
+.contentwidth {
+
+  width: 960px;
+  max-width: 100%;
+  box-sizing: border-box;
+  margin: 1em auto;
+  display: block;
+  h2 {
+    line-height: 64px;
+  }
+  @media screen and (min-width: 1220px) and (max-width: 1480px){
+    width: 800px;
+  }
+  @media screen and (max-width:  $mobile-max-breakpoint){
+    width: 100%;
+  }
+}
+.screenreader, .screen-reader-text {
+  @include screen-reader-text;
+}
+.centered {
+  text-align: center;
+}
+
+.socialLinks {
+  p{
+    font-size: 30px !important;
+    text-align: center;
+  }
+  a:link, a:active, a:visited {
+    color: #fff;
+    margin: 0 20px;
+  }
+  a:hover {
+    color: #ea906e;
+  }
+}
+
+#smoothieToolContainer {
+  background: #9DBF90;
+
+ // background: url(http://assets.wholefoodsmarket.com.s3.amazonaws.com/www/recipes/smoothies/img/smoothiebg.jpg) no-repeat center;
+    // &.blur {
+    //       background: url(http://assets.wholefoodsmarket.com.s3.amazonaws.com/www/recipes/smoothies/img/backgroundblur.jpg) no-repeat;
+
+    // }
+    @media screen and (max-width: $mobile-max-breakpoint){
+   //   background: url(http://assets.wholefoodsmarket.com.s3.amazonaws.com/www/recipes/smoothies/img/smoothiebgmobile.jpg) no-repeat bottom left;
+      overflow: hidden;
+      &.complete{
+        overflow-x: hidden;
+        overflow-y: visible;
+      }
+    }
+    background-size: cover;
+    display: block;
+    padding: 100px 0px 100px;
+    min-height: 400px;
+    margin-bottom: 2em;
+    @include animationTransition(min-height);
+    color: #fff;
+    position: relative;
+    @media screen and (max-width:  $mobile-max-breakpoint){
+      background-size: cover;
+      //color: #333;
+      padding:0;
+      margin: 0;
+      min-height: 1000px;
+      overflow-x:hidden;
+    }
+
+    #introScreen {
+      p {
+        font-size: 16px;
+        text-align: center;
+        width: 80%;
+        margin: 0 auto 2em;
+        @media screen and (max-width: $mobile-max-breakpoint){
+          font-size: 24px;
+        }
+      }
+      h1{
+        color: #fff;
+        text-rendering: optimizeLegibility;
+        -webkit-font-smoothing: antialiased;
+        text-align: center;
+        font-family: "LeagueGothic", "Lucida Sans", "Lucida Grande", sans-serif;
+        text-transform: uppercase;
+        font-weight:normal;
+        @media screen and (max-width: $mobile-max-breakpoint){
+          font-size: 50px;
+        }
+      }
+
+      #steps {
+        display: block;
+      //width: 80%;
+      margin: 1em auto;
+      box-sizing: border-box;
+      .arrow {
+        font-size: 40px;
+        vertical-align: top;
+        box-sizing: border-box;
+        padding-top: 5%;
+        display: inline-block;
+        text-align: center;
+        width: 3%;
+        @media screen and (max-width: $mobile-max-breakpoint){
+          width: 2%;
+        }
+      }
+      .step {
+        display: inline-block;
+        box-sizing: border-box;
+        width:31%;
+        vertical-align: top;
+        margin-left: -4px;
+        text-align: center;
+        @media screen and (max-width: $mobile-max-breakpoint){
+          width: 30%;
+        }
+        p {
+          margin: 0;
+          width: 100%;
+          margin-bottom:0;
+          vertical-align: top;
+          box-sizing: border-box;
+          // font-size: 14px;
+        }
+        img {
+          height: 100px !important;
+          max-width: 100%;
+          box-sizing: border-box;
+          height: auto;
+          margin-bottom: 0;
+          vertical-align: top;
+        }
+
+      }
+    }
+    #begin {
+      margin-top: 1em;
+    }
+  }
+
+  .slide {
+    display: block;
+    box-sizing: border-box;
+      /*width: 100%;
+      margin: 0;*/
+      width: 960px;
+      max-width: 100%;
+      margin: auto;
+      padding: 20px;
+      margin: 20px 0;
+      /*height: 100%;*/
+      position: absolute;
+      top: 100px;
+      /*left: 0;*/
+      // visibility: hidden;
+      max-height: 640px;
+      @include translate(150%, 0);
+      @include animationTransition(transform);
+      &.focus {
+        visibility: visible;
+        @include translate(0,0);
+      }
+      @media screen and (max-width:  $mobile-max-breakpoint){
+        width: 100%;
+        top:0;
+        margin: 0;
+        //position:relative;
+        //z-index: 0;
+        //max-height: 100%;
+      }
+    }
+
+    #introScreen{
+      @include translate(-150%, 0);
+      &.focus {
+        @include translate(0,0);
+        cursor: pointer;
+      }
+    }
+
+    .catGroup {
+      box-sizing: border-box;
+      padding: 20px;
+      border-bottom: solid 1px #D6D6D6;
+      max-height: 60px;
+      overflow: hidden;
+      @include mobile-animation;
+      -webkit-transition:max-height 700ms ease, background 500ms ease;
+      -moz-transition:max-height 700ms ease, background 500ms ease;
+      -o-transition:max-height 700ms ease, background 500ms ease;
+      transition:max-height 700ms ease, background 500ms ease;
+      @media screen and (max-width: $mobile-max-breakpoint){
+        p {
+          opacity: 0;
+          transition: opacity .25s ease-in-out;
+          -moz-transition: opacity .25s ease-in-out;
+          -webkit-transition: opacity .25s ease-in-out;
+        }
+      }
+
+      @media screen and (max-width: $mobile-max-breakpoint){
+        max-height: 110px;
+      }
+
+      &:hover {
+        background: rgba(255,255,255,0.5);
+        .expandGroup {
+          opacity: 1;
+        }
+      }
+      &.active {
+        background: rgba(255,255,255,0.5);
+        max-height: 10000px;
+        @media screen and (max-width: $mobile-max-breakpoint){
+         p{
+          opacity: 1;
+        }
+      }
+      .closeGroup {
+        opacity: 1;
+      }
+      .expandGroup {
+        opacity: 0;
+      }
+    }
+    h3 {
+      display: inline-block;
+      width: 80%;
+      margin-right: -4px;
+      vertical-align: top;
+      cursor: pointer;
+    }
+
+    .selectGroup {
+      cursor: pointer;
+    }
+
+
+    .closeGroup {
+      opacity: 1;
+      @include mobile-animation;
+      -webkit-transition: opacity 600ms ease-in;
+      -moz-transition: opacity 600ms ease-in;
+      -o-transition: opacity 600ms ease-in;
+      -ms-transition: opacity 600ms ease-in;
+      transition: opacity 600ms ease-in;
+      display: inline-block;
+      text-align: right;
+      width: 20%;
+      margin-left: -4px;
+      vertical-align: top;
+      font-size: 16px;
+        //font-weight: bold;
+        cursor: pointer;
+        @media screen and (max-width: $mobile-max-breakpoint){
+          font-size: 30px;
+        }
+      }
+      
+    }
+
+    .ingredientOption {
+      display: block;
+      box-sizing: border-box;
+      width: 100%;
+      border-bottom: solid 1px #D6D6D6;
+      padding: 1em .5em;
+      position: relative;
+      @media screen and (max-width: $mobile-max-breakpoint){
+        font-size: 24px;
+      }
+
+      .ingredientName {
+        display: inline-block;
+        font-weight: bold;
+        line-height: 30px;
+        vertical-align: top;
+        width: 30%;
+        .serving {
+          opacity: 0;
+          font-size: 11px;
+          color: #A7A7A7;
+          font-style: italic;
+          opacity: 0;
+          @include mobile-animation;
+          -webkit-transition: opacity 600ms ease-in;
+          -moz-transition: opacity 600ms ease-in;
+          -o-transition: opacity 600ms ease-in;
+          -ms-transition: opacity 600ms ease-in;
+          transition: opacity 600ms ease-in;
+          box-sizing: border-box;
+          position: absolute;
+          font-weight: normal;
+          line-height: 11px;
+          @media screen and (max-width: $mobile-max-breakpoint){
+            font-size: 14px;
+          }
+        }
+      }
+      &:hover {
+        background: rgba(255, 255, 255,.8);
+
+        .details.active .more, .details .more, .ingredientName .serving {
+          opacity: 100;
+        }
+
+      }
+
+      &:first-child {
+        border-top: solid 1px;
+      }
+
+      .wrapper {
+        display: inline-block;
+        padding: 0 20px;
+        box-sizing: border-box;
+        overflow-x: hidden;
+
+        .ingredientTools{
+          @include mobile-animation;
+          -webkit-transition: -webkit-transform 600ms cubic-bezier(0.550, 0.085, 0.680, 0.530);
+          -moz-transition: moz-transform 600ms cubic-bezier(0.550, 0.085, 0.680, 0.530);
+          -o-transition: -o-transform 600ms cubic-bezier(0.550, 0.085, 0.680, 0.530);
+          -ms-transition: -ms-transform 600ms cubic-bezier(0.550, 0.085, 0.680, 0.530);
+          transition: transform 600ms cubic-bezier(0.550, 0.085, 0.680, 0.530);
+        //-webkit-transform: translate(-4em,0);
+        padding: 0 10px;
+        @include translate(-3em,0);
+        display: inline-block;
+        @media screen and (max-width: $mobile-max-breakpoint){
+          @include translate(-2em,0);
+        }
+        &.active {
+          -webkit-transform: translate(0em,0);
+          -moz-transform: translate(0em,0);
+          -o-transform: translate(0em,0);
+          -ms-transform: translate(0em,0);
+          transform: translate(0em,0);
+        }
+
+        & > * {
+          display: inline-block;
+          font-size: 20px;
+          padding: 0 5px;
+        }
+
+        .add, .remove {
+          width: 0;
+          height: 0;
+          background: #B5B1B1;
+          line-height: 0;
+          cursor: pointer;
+          border-radius: 50px;
+          color: #666565;
+          padding: 15px;
+          margin: 0;
+          box-sizing: border-box;
+          text-align: left;
+          @media screen and (max-width: $mobile-max-breakpoint){
+            padding: 20px;
+            //font-size: 30px;
+            text-indent: -4px;
+
+          }
+        }
+        
+        .add {
+          display: inline-block;
+          text-indent: -6px;
+        }
+
+        .remove, .count {
+          opacity: 0;
+          @include mobile-animation;
+          -webkit-transition: opacity 600ms ease-in;
+          -moz-transition: opacity 600ms ease-in;
+          -o-transition: opacity 600ms ease-in;
+          -ms-transition: opacity 600ms ease-in;
+          transition: opacity 600ms ease-in;
+        }
+
+        &.active .remove, &.active .count {
+          opacity: 100;
+        }
+        .count {
+          vertical-align: top;
+          line-height: 30px;
+          @media screen and (max-width: $mobile-max-breakpoint){
+            font-size: 30px;
+          }
+        }
+        .remove {
+          text-indent: -4px;
+        }
+
+      }
+    }
+
+    .details {
+      display: block;
+      width:100%;
+      margin-top:0;
+      text-align: right;
+      max-height: 0;
+      box-sizing: border-box;
+      @include mobile-animation;
+      -webkit-transition:max-height 500ms ease;
+      -moz-transition:max-height 500ms ease;
+      -o-transition:max-height 500ms ease;
+      transition:max-height 500ms ease;
+      
+      &.active {
+        /*transform: scaleY(1);*/
+        max-height:300px;
+
+        .ingredientDesc {
+          opacity: 100;
+        }
+      }
+
+      .more {
+        opacity: 0;
+        @include mobile-animation;
+        -webkit-transition: opacity 600ms ease-in;
+        -moz-transition: opacity 600ms ease-in;
+        -o-transition: opacity 600ms ease-in;
+        -ms-transition: opacity 600ms ease-in;
+        transition: opacity 600ms ease-in;
+        box-sizing: border-box;
+        position: absolute;
+        top: -2em;
+        right: 1em;
+        @media screen and (max-width: $small-breakpoint){
+          opacity: 1;
+        }
+        &:hover {
+          cursor: pointer;
+        }
+      }
+
+      .ingredientDesc {
+        opacity: 0;
+        text-align: left;
+        /*transform: scaleY(0);*/
+        @include mobile-animation;
+        -webkit-transition: opacity 600ms ease-in, -webkit-transform 600ms cubic-bezier(0.550, 0.085, 0.680, 0.530);
+        -moz-transition: opacity 600ms ease-in, moz-transform 600ms cubic-bezier(0.550, 0.085, 0.680, 0.530);
+        -o-transition: opacity 600ms ease-in, -o-transform 600ms cubic-bezier(0.550, 0.085, 0.680, 0.530);
+        -ms-transition: opacity 600ms ease-in, -ms-transform 600ms cubic-bezier(0.550, 0.085, 0.680, 0.530);
+        transition: opacity 600ms ease-in, transform 600ms cubic-bezier(0.550, 0.085, 0.680, 0.530);
+        box-sizing: border-box;
+        padding: 1em;
+      }
+    }
+  }
+
+// .toolStatus {
+//   @media screen and (max-width: $mobile-max-breakpoint){
+//     background: #fff;
+//     box-sizing: border-box;
+//     display: block !important;
+//     position: fixed;
+//     left: 0px;
+//     top: 0px;
+//     height: 100px;
+//     width: 100%;
+
+//   }
+// }
+
+
+p.smoothieStatus {
+  color: #57922c;
+  font-size: 1.5em;
+  -webkit-transition: background-color 600ms ease-in, color 600ms ease-in;
+  -moz-transition: background-color 600ms ease-in, color 600ms ease-in;
+  -o-transition: background-color 600ms ease-in, color 600ms ease-in;
+  -ms-transition: background-color 600ms ease-in, color 600ms ease-in;
+  transition: background-color 600ms ease-in, color 600ms ease-in;
+  /* transitions*/
+  @include animationTransition(background-color);
+  @include animationTransition(color);
+
+  @include mobile-animation;
+
+  &.error {
+    color: $errorText;
+  }
+  &.warning {
+    color: $warningText;
+  }
+  &.highlight{
+    background-color: $highlight;
+  }
+  @media screen and (max-width: $mobile-max-breakpoint){
+    font-size: 20px;
+  }
+}
+
+#smoothieActions h2 {
+  color: #57922c;
+  text-transform: uppercase;
+  font-family: "LeagueGothic", "Lucida Sans", "Lucida Grande", sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  font-weight: normal;
+  @media screen and (max-width: $mobile-max-breakpoint){
+    font-size: 34px;
+    line-height: 34px;
+    margin-bottom: 0;
+  }
+}
+
+
+
+
+h3.cat {    
+  color: #797979;
+  text-transform: uppercase;
+  font-family: "LeagueGothic", "Lucida Sans", "Lucida Grande", sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  font-weight: normal;
+  @media screen and (max-width: $mobile-max-breakpoint){
+    font-size: 46px;
+  }
+}
+
+#builder {
+  @include whiteCard;
+  color: #797979;
+  opacity: 0;
+  @include animationTransition(opacity);
+  &.focus {
+    opacity: 1;
+  }
+  @media screen and (max-width: $mobile-max-breakpoint){
+    padding:0;
+    &.fixed {
+      position: fixed;
+    }
+  }
+}
+
+#smoothieBuilderBox {
+  display: inline-block;
+  box-sizing: border-box;
+  margin-left: -4px;
+  width: 40%;
+  @media screen and (max-width:  $mobile-max-breakpoint){
+    display: block;
+    width: 100%;
+    padding-top: 15%;
+    background: #fff;
+    position:absolute;
+    margin: auto;
+    z-index: 10;
+    @include translate(100%,0);
+    @include animationTransition(transform);
+    &.review {
+      @include translate(0,0);
+    }
+
+  }
+}
+
+
+
+.removeThis {
+  cursor: pointer;
+}
+
+#smoothiePrint {
+  width: 300px;
+  height: 600px;
+}
+
+#flavorBox{
+  display: block;
+  height:100px;
+  max-height:0;
+  @include animationTransition(max-height);
+}
+
+#flavorContainer{
+ cursor: pointer;
+ background: rgba(255,255,255,0.25);
+
+}
+
+.flavorFill {
+  cursor: pointer;
+}
+.flavorFillText {
+  cursor: pointer;
+}
+
+.closeFlavors {
+  cursor: pointer;
+}
+
+#flavorExpanded {
+  //display: none;
+  opacity: 0;
+  -webkit-transition: opacity 300 ease-in-out;
+  -moz-transition: opacity 300 ease-in-out;
+  -o-transition: opacity 300 ease-in-out;
+  -ms-transform: opacity 300 ease-in-out;
+  transition: opacity 300 ease-in-out;
+  &.open {
+    //display: inline;
+    opacity: 1;
+  }
+
+}
+
+
+
+#smoothieTool {
+  min-height: 400px;
+    //max-height:560px;
+    @media screen and (max-width:  $mobile-max-breakpoint){
+      max-width: 100%;
+      max-height: 800px;
+      margin-left: -5%;
+
+    }
+  }
+
+  #smoothieResults {
+    h4 {
+      display: inline-block;
+      font-family:  "LeagueGothic","Lucida Sans","Lucida Grande",sans-serif !important;
+      text-rendering: optimizeLegibility;
+      -webkit-font-smoothing: antialiased;
+      color: rgb(121, 121, 121);
+      text-transform: uppercase;
+      font-weight: normal;
+      font-size: 30px;
+    }
+    .socialLinks {
+      a:link, a:visited, a:active {
+        color: rgb(121, 121, 121);
+        font-size: 30px;
+        margin: 10px;
+        &:hover {
+          color: #ea906e;
+        }
+      }
+    }
+
+  }
+
+
+  #options {
+    display: inline-block;
+    width: 60%;
+    box-sizing: border-box;
+    margin-left: -4px;
+    padding: 20px 20px 20px 40px;
+    vertical-align: top;
+
+    @media screen and (max-width:  $mobile-max-breakpoint){
+      display: block;
+      width: 100%;
+      margin: auto;
+      position:absolute;
+      background: #fff;
+      padding: 20px 20px 80px;
+      margin: auto;
+      top:0;
+      z-index: 0;
+      #smoothieButtons {
+        display: none;
+      }
+    }
+
+
+  }
+
+  #smoothieButtonsMobile {
+    @media screen and (min-width: $mobile-max-breakpoint+1){
+      display: none;
+    }
+  }
+
+  @media screen and (max-width: $mobile-max-breakpoint){
+
+    #smoothieButtonsMobile{
+      opacity: 0;
+      background: #fff;
+      text-align: center;
+      display: block !important;
+      position:fixed;
+      left:0px;
+      bottom:0px;
+      height:100px;
+      width:100%;
+      padding-top: 20px;
+      box-sizing: border-box;
+      -moz-box-shadow: 0 -10px 10px -10px rgba(0,0,0,0.5);
+      -webkit-box-shadow: 0 -10px 10px -10px rgba(0,0,0,0.5);
+      box-shadow: 0 -10px 10px -10px rgba(0,0,0,0.5);
+      @include mobile-animation;
+      -webkit-transition: opacity 600ms ease-in, -webkit-transform 600ms cubic-bezier(0.550, 0.085, 0.680, 0.530);
+      -moz-transition: opacity 600ms ease-in, moz-transform 600ms cubic-bezier(0.550, 0.085, 0.680, 0.530);
+      -o-transition: opacity 600ms ease-in, -o-transform 600ms cubic-bezier(0.550, 0.085, 0.680, 0.530);
+      -ms-transition: opacity 600ms ease-in, -ms-transform 600ms cubic-bezier(0.550, 0.085, 0.680, 0.530);
+      transition: opacity 600ms ease-in, transform 600ms cubic-bezier(0.550, 0.085, 0.680, 0.530);
+      @include translate(0,100%);
+
+      //@include translate(0,100%);
+      &.active {
+        opacity: 1;
+        @include translate(0,0);
+        
+      }
+      button#resetMobile.cta {
+        background: #fff !important;
+        color: $cta !important;
+      }
+    }
+  }
+
+
+
+  #ingredientOptions {
+    height: 400px;
+    box-sizing: border-box;
+    overflow-y: scroll;
+    vertical-align: top;
+    margin-bottom: 1em;
+
+    -moz-box-shadow: inset 0 -10px 10px -10px rgba(0,0,0,0.5);
+    -webkit-box-shadow: inset 0 -10px 10px -10px rgba(0,0,0,0.5);
+    box-shadow: inset 0 -10px 10px -10px rgba(0,0,0,0.5);
+    @media screen and (max-width: $mobile-max-breakpoint){
+      height: 600px;
+      box-shadow: none;
+      -moz-box-shadow: none;
+      -webkit-box-shadow: none;
+    }
+  }
+
+
+  #results {
+    visibility: hidden;
+    position:absolute;
+    padding: 20px;
+    top: 0;
+  }
+
+  .complete {
+    max-height: 10000px;
+    #smoothieActions {
+      visibility: hidden;
+    }
+    #results {
+      visibility: visible;
+      @media screen and (max-width: $mobile-max-breakpoint){
+        background: #fff;
+        margin-left: -20px;
+        padding: 20px;
+      }
+    }
+  }
+
+}
+
+
+svg text {
+  text-transform: uppercase;
+  font-family: "LeagueGothic", "Lucida Sans", "Lucida Grande", sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  font-weight: normal;
+}
+
+#recipes-block {
+
+  .view-id-recipes {
+    margin: 0 -10px;
+  }
+
+  .view-id-recipes .views-row {
+    width: 33% !important ;
+    max-width: 33% !important;
+    height: auto !important;
+    min-height: 260px;
+    float: left;
+    padding: 0 10px !important;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    margin-right: -4px;
+  }
+
+  .views-field.views-field-field-hero-image {
+    width: 100% !important;
+    height: auto !important;
+    border: none !important;
+  }
+
+  img {
+    border: none !important;
+    margin-bottom: 0px !important;
+    max-width: 100%;
+  }
+
+  .views-field.views-field-field-recipe-rating {
+    display: none;
+  }
+
+  .views-field.views-field-title {
+    padding: 5px 0 !important;
+  }
+
+  .views-field.views-field-title span a {
+    font-family:  "LeagueGothic","Lucida Sans","Lucida Grande",sans-serif !important;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-weight: normal;
+    font-size: 24px !important;
+    display:block;
+    line-height: 30px;
+    padding:10px 0 15px;
+    border-bottom: none;
+    text-decoration: underline;
+    text-align: left;
+    text-transform: uppercase;
+  }
+
+  html.wholefoods-mobile-theme ul.rc-links {
+    display: none;
+  }
+
+  @media only screen and (min-width: 420px) and (max-width: 600px) {
+    .views-field.views-field-field-hero-image {    
+      max-width: 100% !important;    
+      width: 100% important;
+    }
+    .view-id-generic_page_items img {    
+      max-width: 100%;
+    }
+    .view-id-recipes.view-display-id-by_argument .views-row {    
+      margin-bottom: 2em;
+
+    }
+    ul.rc-links {    
+      display: none !important;
+    }
+  }
+}
+
+.cta {
+  color: #fff;
+  background: $cta;
+  @include wfm-button;
+  font-size: 28px;
+  line-height: 36px;
+  padding: 4px 12px;
+  text-align: center;
+  cursor: pointer;
+  &.cta-seasonal {
+    background: $cta-seasonal;
+    color: darken($cta, 10%);
+  }
+  @media screen and (max-width: $small-breakpoint) {
+    font-size: 35px;
+    line-height: 35px;
+    padding: 6px 25px;
+    &.cta-seasonal {
+      background: $cta;
+      color: white;
+    }
+  }
+} 
+
+#button {
+  @include wfm-button;
+}
+
+.resultsbuttons {
+  text-align: center;
+  margin: 1em auto;
+}
+
+#blendLink {
+  color: $cta;
+  font-weight: bold;
+  text-decoration: underline;
+  cursor: pointer;
+}
+#smoothieButtons {
+  text-align: center;
+  button#reset.cta {
+    background: #fff !important;
+    color: $cta !important;
+  }
+}
+
+
+#printOnly {
+  display: none;
+}
+
+p.mobileOnly {
+  @media screen and (max-width: $mobile-max-breakpoint){
+    padding-bottom: 0;
+  }
+}
+
+.mobileOnly{
+  display: none;
+  @media screen and (max-width: $mobile-max-breakpoint){
+    display: inherit;
+    &.cta {
+      display: inline-block;
+    }
+  }
+}
+
+.desktopOnly{
+  @media screen and (max-width: $mobile-max-breakpoint){
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: $mobile-max-breakpoint){
+  #smoothieToolContainer.complete {
+    #smoothieBuilderBox {
+      @include translate(100%,0);
+      position:fixed;
+      height: 500px;
+      &.review {
+        @include translate(0,0);
+      }
+    }
+  }
+}
+
+// /* Landscape Orientation */
+// @media screen and (min-width: $mobile-min-landscape) and (max-width: $mobile-max-breakpoint){
+//   #smoothieButtonsMobile{ 
+//     height: 20vh !important;
+//     padding-top:3vh !important;
+//   }
+
+//   #smoothieToolContainer #smoothieActions h2 {
+//     font-size: 24px;
+//     line-height: 24px;
+//   }
+//   #smoothieToolContainer #smoothieActions .smoothieStatus {
+//     font-size: 16px;
+//   }
+//   #smoothieToolContainer #ingredientOptions {
+//     height: 45vh;
+//     .catGroup {
+//       max-height: 60px;
+//     }
+//     h3.cat {
+//       font-size: 30px;
+//     }
+//   }
+// }
+
+// #overlayMobile {
+//     opacity: 0;
+//   visibility: hidden;
+//   transition: opacity 0.5s, visibility 0s 0.5s;
+//   font-size: 30px;
+//   color: #fff;
+//   background: green;
+// }
+
+/* Print Styles */
+@media print {
+
+  * {
+    background-image: none;
+    background: none;
+  }
+
+  body {
+    font-family: 'Lucida Sans', sans-serif;
+    font-size: 16px;
+  }
+
+  h2 {
+    font-size: 40px;
+  }
+
+  #printOnly {
+    display: block;
+    padding: 1em 2em;
+  }
+
+  #resultsPrint {
+    display: inline;
+    #nutritionPrint {
+      display: inline-block;
+    }
+  }
+
+  #svgPrint {
+    vertical-align: top;
+    display: block;
+    width: 30%;
+    float: right;
+    margin-left: 1em;
+    margin-bottom: 1em;
+    text-align:center;
+    svg {
+      width: 100%;
+      margin: auto;
+      display: block;
+    }
+  }
+
+  .contentwidth{
+    width: 100%;
+  }
+
+  .noprint {
+    display: none !important;
+  }
+
+}
